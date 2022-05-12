@@ -1,28 +1,33 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<title>Hank Quinlan, Horrible Cop</title>
-	</head>
-	<body>
-		<nav>
-    		<ul>
-        		<li><a href="/">Home</a></li>
-	        	<li><a href="/about">About</a></li>
-        		<li><a href="/cv">CV</a></li>
-        		<li><a href="/blog">Blog</a></li>
-    		</ul>
-		</nav>
-		<div class="container">
-    		<div class="blurb">
-        		<h1>Hi there, I'm Hank Quinlan!</h1>
-				<p>I'm best known as the horrible cop from <em>A Touch of Evil</em> Don't trust me. <a href="/about">Read more about my life...</a></p>
-    		</div><!-- /.blurb -->
-		</div><!-- /.container -->
-		<footer>
-    		<ul>
-        		<li><a href="mailto:hankquinlanhub@gmail.com">email</a></li>
-        		<li><a href="https://github.com/hankquinlan">github.com/hankquinlan</a></li>
-			</ul>
-		</footer>
-	</body>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./styles.css" />
+        <title>Document</title>
+    </head>
+    <body>
+        <div id="container">
+        <section id="input">
+            <h1 id="heading">Metric/Imperial unit conversion<h1>
+            <h2 id="number-input"></h2>
+    </section>
+    <section id="output">
+        <section id="length">
+            <p class="top">Length (Meter/Feet)</p>
+            <p class="bottom" id="meter-feet"></p>
+        </section>
+        <section id="volume">
+            <p class="top">Volume (Liters/Gallons)
+            <p class="bottom" id="liter-gallon"></p> 
+        </section>
+        <section id="mass">
+            <p class="top">Mass (Kilograms/Pounds)</p>
+            <p class="bottom" id="kilo-pound"></p>
+        </section>
+    </section>
+    <script src="./index.js"></script>
+        </div>
+  </body>
 </html>
